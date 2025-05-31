@@ -37,7 +37,7 @@ validator.js
 📦 Installation & Setup
 1. Clone the Repository
   ``bash
-  git clone https://github.com/your-username/password_validator.git
+  git clone https://github.com/paylgit933/password_validator.git
 cd password_validator
 2. Install Dependencies
   npm install
