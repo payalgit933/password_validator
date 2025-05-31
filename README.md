@@ -1,47 +1,8 @@
-# REACT + validator.js
-A simple and responsive React app that checks the strength of a password in real-time using the validator library.
+# React + Vite
 
-✨ Features
-✅ Real-time password validation as the user types
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✅ Clear visual feedback with color-coded messages
+Currently, two official plugins are available:
 
-✅ Uses validator library to enforce strong password criteria
-
-✅ Clean and minimal UI
-
-✅ Easy to integrate into any React project
-
-🛡️ Password Strength Criteria
-A password is considered strong if it includes:
-
-At least 8 characters
-
-At least 1 lowercase letter
-
-At least 1 uppercase letter
-
-At least 1 number
-
-At least 1 special character (e.g., @, $, %, &)
-
-📸 Demo
-
-![Screenshot](Screenshot.png)
-
-🧰 Technologies Used
-React
-
-validator.js
-
-📦 Installation & Setup
-1. Clone the Repository
-  ``bash
-  git clone https://github.com/paylgit933/password_validator.git
-cd password_validator
-2. Install Dependencies
-  npm install
-3. Install validator
-   npm install validator
-4. Start the Development Server
-npm run dev
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
